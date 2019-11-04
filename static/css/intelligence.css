@@ -1,0 +1,99 @@
+
+.w80pre,.w90pre{
+    width: 80%;
+    margin: 0 auto;
+    /* margin-left:10%; */
+}
+.w90pre{
+    width: 90%;
+}
+/* 头部 */
+.ill_header{
+    background: #eee;
+    padding: 70px 0 10px;
+}
+/* 搜索框 */
+.search_con{
+    position: fixed;
+    margin-left: 10%;
+    z-index: 99;
+    margin-top: 10px;
+}
+.searchbox{
+    height:45px;
+    width: 90%;
+   
+}
+.goBtn{
+    height: 45px;
+    line-height: 31px;
+    vertical-align: top;
+    margin-left:-5px; 
+}
+/* 文件icon */
+.iconi{
+    font-size:88px;
+    /* margin-top: 7%; */
+    color: #747474;
+}
+/* 文件信息列表 */
+.fieldlist{
+    margin-top: 15px;
+    border:1px solid #eee;
+    border-bottom: none;
+}
+.fieldlist li{
+  border-bottom:1px solid #eee; 
+}
+.info_title{
+    width: 20%;
+}
+.field_title{
+    width: 40%;
+}
+.contanier_show{
+    position: relative;
+    top: 60px;
+}
+/* domain 和ip的报告 */
+.domain_list li{
+    padding-left:10px;
+    height: 35px;
+    line-height: 35px;
+}
+.domain_list li:first-child{
+    border-bottom: 1px solid #eee;
+}
+.spiner-example {
+    height: 200px;
+    margin-top: 230px;
+}
+.chart-spiner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: #ffffff;
+    height: auto !important;
+}
+.tablecommon tbody tr td{
+ max-width:600px;
+ word-wrap: break-word;
+}
+.tip{
+    width: 80%;
+    margin: 50px auto;
+    color: red;
+}
+.content_box{
+    border-right: 1px solid #efe7e7;
+    height: 820px;
+    max-height: 820px;
+    overflow-y: auto;
+}
+.content_box:nth-child(2){
+    border: none;
+    border-left: 1px solid #efe7e7;
+}

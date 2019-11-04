@@ -1,0 +1,58 @@
+<html >
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="expires" content="0">
+        <title>风控平台</title>
+        <link href="../../static/img/favicon.ico" rel="icon" type="image/x-icon">
+        <link href="../../static/css/finger/demo.css" rel="stylesheet" type="text/css">
+        
+        
+    </head>
+    <body style="overflow: hidden;">
+        <canvas class="pg-canvas" id="pg-canvas" width="1433" height="937" style="opacity: 0.2;"></canvas>
+        <div class="login" style="z-index:1000">
+            <div class="form_container">
+                <ul class="form_ul">
+                    <li>
+                        <span class="username">
+                            <img src="../../static/img/finger/user_icon_copy.png" alt="用户">
+                        </span>
+                        <input type="text" placeholder="用户名" id="username">
+                    </li>
+                    <li>
+                        <span class="password">
+                            <img src="../../static/img/finger/lock_icon_copy.png" alt="密码">
+                        </span>
+                        <input type="password" placeholder="密码" id="pwd">
+                    </li>
+                    <li class="finger_li hide">
+                        <span><img src="../../static/img/finger/fingerid.png" alt="指纹id"></span>
+                        <input type="text"  id="finger_id" value="">
+                        <!-- <p class="fingerId dib" style="vertical-align: text-bottom;"></p> -->
+                    </li>
+                    <li class="robot hide">
+                        <span><img src="../../static/img/finger/robot_light.png" alt="是否是机器人"></span>
+                        <input type="text" id="robot" value="是机器人">
+                        <!-- <p class="robot dib" style="vertical-align: text-bottom;">是机器人</p> -->
+                    </li>
+                    <li class="submit_btn_li">
+                        <input type="button" class="login_submit targetDom" value="验证" id="fingerprint-button">
+                        <div class="loader">
+                            <div class="loader-inner ball-clip-rotate-multiple">
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div id = "test_canvases"></div>
+      <script src="../../static/js/require.js" defer async="false" data-main="../../static/js/requireCompones"></script>
+    </body>
+</html>

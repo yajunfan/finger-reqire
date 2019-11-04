@@ -1,0 +1,217 @@
+:-moz-placeholder {
+    color: #c3c6cc;
+    opacity: 0.6
+}
+
+::-moz-placeholder {
+    color: #c3c6cc;
+    opacity: 0.6
+}
+
+input:-ms-input-placeholder {
+    color: #c3c6cc;
+    opacity: 0.6
+}
+
+input::-webkit-input-placeholder {
+    color: #6989ce;
+    opacity: 0.6
+}
+
+html,body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-size: 12px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: #021130;
+    color: #fff;
+    font-family: source sans pro;
+    background-size: 100%;
+    background: url(../../img/finger/super_bg.png) 100% 100% no-repeat;
+}
+ul,li{
+    padding: 0;
+    list-style: none;
+}
+span,a,i{
+    display: inline-block;
+}
+input{
+    border: 1px solid#4fa1d9;
+    outline: none;
+    background: none;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 4px;
+    color: #61bfff;
+}
+.hide{
+    display: none;
+}
+.dib{
+    display: inline-block;
+}
+.login {
+    position: relative;
+    width: 825px;
+    height: 563px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background: url(../../img/finger/super_logo_info.png) no-repeat;
+    opacity: 1;
+}
+.form_container{
+    position: absolute;
+    width: 45%;
+    height: 46%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 10px 0px 10px 10px;
+    color: #61bfff!important;
+}
+body .login_submit:hover{
+    background: #4fa1d9;
+    color: black;
+}
+.form_container .form_ul{
+    position: relative;
+    padding: 0 5%;
+    margin-top: 7%;
+    height: 96%;
+}
+.form_container .form_ul li{
+    height: 30px;
+    margin-bottom: 10px;
+}
+.form_container .form_ul .finger_li span img,.form_container .form_ul .robot  span img{
+   margin-top: 0;
+}
+.form_container .form_ul .finger_li input,.form_container .form_ul .robot input{
+    vertical-align: top;
+    outline: none;
+    border: none;
+}
+
+.form_container .form_ul li span{
+    width: 14%;
+    height: 30px;
+    text-align: center;
+}
+.form_ul li span img{
+    margin-top: 8px;
+}
+
+.form_container .form_ul li input{
+    width: 84%;
+    border-radius: 4px;
+    vertical-align: bottom;
+}
+.form_container .form_ul .submit_btn_li{
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    bottom: 12%;
+}
+
+.form_container .form_ul li .login_submit {
+    
+    width: 100%;
+    border-radius: 50px;
+    padding: 6px 40px;
+    height: 40px;
+    line-height: 20px;
+    border: 1px solid #4fa1d9;
+    color: #4fa1d9;
+    text-transform: uppercase;
+    font-size: 11px;
+    -webkit-transition-property: background,color;
+    transition-property: background,color;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+}
+
+.validation{
+    width: 24%;
+    margin-left: 4%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.J_codeimg {
+    width: 85px;
+    height: 30px;
+    z-index: 0;
+    color: #fff;
+}
+.form_container .form_ul li .login_submit:hover{
+    background: #06397b;
+    color: white;
+    cursor: pointer;
+}
+
+.loader{
+    position: absolute;
+    right: 24%;
+    top: 0;
+    display: none;
+}
+.loaded {
+    transition: opacity .25s linear;
+    opacity: 1;
+ }
+@keyframes rotate {
+    0% {
+      -webkit-transform: rotate(0deg) scale(1);
+              transform: rotate(0deg) scale(1); }
+  
+    50% {
+      -webkit-transform: rotate(180deg) scale(0.6);
+              transform: rotate(180deg) scale(0.6); }
+  
+    100% {
+      -webkit-transform: rotate(360deg) scale(1);
+              transform: rotate(360deg) scale(1); } }
+  
+  .ball-clip-rotate-multiple {
+    position: relative; 
+  }
+  .ball-clip-rotate-multiple > div {
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      border: 2px solid #fff;
+      border-bottom-color: transparent;
+      border-top-color: transparent;
+      border-radius: 100%;
+      height: 35px;
+      width: 35px;
+      -webkit-animation: rotate 1s 0s ease-in-out infinite;
+              animation: rotate 1s 0s ease-in-out infinite; 
+  }
+  .ball-clip-rotate-multiple > div:last-child {
+        display: inline-block;
+        top: 10px;
+        left: 10px;
+        width: 15px;
+        height: 15px;
+        -webkit-animation-duration: 0.5s;
+                animation-duration: 0.5s;
+        border-color: #fff transparent #fff transparent;
+        -webkit-animation-direction: reverse;
+                animation-direction: reverse; 
+  }
+
+  /* 以上是页面js */
+
+  
